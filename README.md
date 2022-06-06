@@ -12,3 +12,5 @@ pip install -r requirements.txt
 ```
 python main.py --gpu 0 --text a_face_with_curly_hair --img input/1.jpg
 ```
+
+![Example](output.jpg)
