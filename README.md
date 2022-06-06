@@ -21,3 +21,10 @@ python main.py --gpu 0 --text a_face_with_curly_hair --img input/1.jpg
 ```
 
 ![Example](output.jpg)
+
+## Acknowledgements
+The basis for this projects are the following repositories
+[StyleGAN2](https://github.com/NVlabs/stylegan2-ada-pytorch)
+[StyleCLIP-pytorch](https://github.com/soushirou/StyleCLIP-pytorch)
+[E4e](https://github.com/omertov/encoder4editing)
+
