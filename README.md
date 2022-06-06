@@ -17,7 +17,7 @@ Download https://www.dropbox.com/s/qdljpc1ssmd0ai5/ffhq_statedict.pt?dl=0 and pu
 
 ## Example Usage
 ```
-python main.py --gpu 0 --text a_face_with_curly_hair --img input/1.jpg
+python main.py --gpu 0 --text "a face with curly hair" --img input/1.jpg
 ```
 
 ![Example](output.jpg)

@@ -13,8 +13,7 @@ parser.add_argument('--text', type=str, default=None)
 parser.add_argument('--img', type=str, default=None)
 args = parser.parse_args()
 
-text = args.text or 'a_face_with_curly_hair'
-text = ' '.join(text.split('_'))
+text = args.text or 'A face with curly hair'
 img = args.img or 'input/1.jpg'
 
 device = f'cuda:{args.gpu}'
